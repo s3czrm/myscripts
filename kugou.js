@@ -6,7 +6,7 @@
 *******************************
 [rewrite_local]
 
-^http[s]?:\/\/gateway.kugou.com url script-response-body kugou.js
+^http[s]?:\/\/gateway.kugou.com url script-response-body https://raw.githubusercontent.com/s3czrm/myscripts/main/kugou.js
 
 [mitm] 
 
