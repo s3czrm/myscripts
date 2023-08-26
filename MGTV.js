@@ -13,8 +13,8 @@
 *******************************
 [rewrite_local]
 # > 芒果vip
-^http[s]?:\/\/mobile\.api\.mgtv\.com\/v[0-9]\/(playlist|video\/album|video\/relative|video\/list).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/MGTK.js
-^http[s]?:\/\/.*mgtv\.com\/(client\/dynamic_entry|v8\/video\/getSource|GetUserInfo|v3\/module\/list|credits\/url|dynamic\/v1\/channel\/index).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/MGTV.js
+^http[s]?:\/\/mobile\.api\.mgtv\.com\/v[0-9]\/(playlist|video\/album|video\/relative|video\/list).*$ url script-request-header https://raw.githubusercontent.com/s3czrm/myscripts/main/MGTV.js
+^http[s]?:\/\/.*mgtv\.com\/(client\/dynamic_entry|v8\/video\/getSource|GetUserInfo|v3\/module\/list|credits\/url|dynamic\/v1\/channel\/index).*$ url script-response-body https://raw.githubusercontent.com/s3czrm/myscripts/main/MGTV.js
 ^https?:\/\/nuc\.api\.mgtv.com\/Logout url reject-200
 ^https?:\/\/pcvideoyd\.titan\.mgtv\.com\/pb\/ url reject-img
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/ url reject-200
