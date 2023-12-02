@@ -22,7 +22,7 @@
     麻豆射区: https://uu.z78l8cz.cc/?pc=1ZKIP6WX
     微勃: https://qq.wyuwcqm.cc?pc=Y61HE948
 ******************************************
-http[s]?://.*(yal09zp|yuwhuxuw|d4s000ejiic|uzro0z3|bytebwq|qrneryt|dirptev|saejeuj|4bmqesfias9|zxt9kf4).+/api/app/(ping/config|media/(play|homev2|short/recommend)|user/info) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/mdsq.js
+http[s]?://.*(yal09zp|yuwhuxuw|d4s000ejiic|uzro0z3|bytebwq|qrneryt|dirptev|saejeuj|4bmqesfias9|zxt9kf4).+/api/app/(ping/config|media/(play|homev2|home|short/recommend)|user/info) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/mdsq.js
 
 hostname=*bytebwq.com,*qrneryt.com,*dirptev.com,*saejeuj.com,*uzro0z3.com,*d4s000ejiic.com,*yuwhuxuw.com,*yal09zp.com,*.4bmqesfias9.com
 ******************************************/
