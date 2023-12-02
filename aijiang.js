@@ -12,6 +12,8 @@
 # > 爱酱视频破解超级至尊会员
 ^https?:\/\/(cc|dd)\.h5aj.*\.com\/h5\/app\/api\/(tab\/module|(video|user)\/info) url script-response-body https://raw.githubusercontent.com/s3czrm/myscripts/main/aijiang.js
 ^https?:\/\/(cc|dd)\.h5aj.*\.com\/h5\/app\/api\/(message|record)\/(group|isreply) url script-response-body https://raw.githubusercontent.com/s3czrm/myscripts/main/aijiang.js
+^https?:\/\/(cc|dd)\.h5aj.*\.com\/longVideo url script-response-body https://raw.githubusercontent.com/s3czrm/myscripts/main/aijiang.js
+
 
 [mitm] 
 hostname = c.h5ajcc.com, cc.h5ajss.com, c.h5ajww.com, c.h5aj66.com, c.h5aj88.com
