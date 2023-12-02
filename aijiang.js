@@ -10,7 +10,7 @@
 *******************************
 [rewrite_local]
 # > 爱酱视频破解超级至尊会员
-^https?:\/\/(cc|dd)\.h5aj.*\.com\/longVideo|h5\/app\/api\/(tab\/module|(video|user)|message|record\/info|group|isreply) url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/LoveChanVideoCrack.js
+^https?:\/\/(cc|dd)\.h5aj.*\.com\/longVideo|h5\/app\/api\/((tab\/module|(video|user)|message|record)\/info|group|isreply) url script-response-body https://raw.githubusercontent.com/yqc007/QuantumultX/master/LoveChanVideoCrack.js
 [mitm] 
 hostname = cc.h5ajcc.com, cc.h5ajss.com, cc.h5ajww.com, cc.h5aj66.com, cc.h5aj88.com
 
