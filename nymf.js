@@ -1,7 +1,7 @@
 /*
 * nymf解锁会员图片视频
 [riwrute_local]
-^https:\/\/nymfapp.com\/api.* url script-response-body https://raw.githubusercontent.com/hanshaoUi/QX/main/pojie/nyfm.js
+^https:\/\/nymfapp.com\/api.* url script-response-body https://raw.githubusercontent.com/s3czrm/myscripts/main/nymf.js
 [mitm]
 hostname = nymfapp.com
 **********************
