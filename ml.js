@@ -1,7 +1,6 @@
 /*
 [riwrute_local]
-https:\/\/api\.mlinkapp\.cc\/v1\/user 
-
+https:\/\/api\.mlinkapp\.cc\/v1\/user url script-response-body https://raw.githubusercontent.com/s3czrm/myscripts/main/ml.js
 [mitm] 
 hostname=*.mlinkapp.cc
 
