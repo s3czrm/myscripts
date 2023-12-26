@@ -10,6 +10,6 @@ var obj = JSON.parse(body);
 // 修改数据字段
 obj.data.level = "3";
 obj.data.agentNum = "1000";
-obj.data.expireTime = 1766731388;
+obj.data.expireTime = "1766731388";
 // 重写响应体
 $done({ body: JSON.stringify(obj) });
