@@ -11,6 +11,6 @@ var obj = JSON.parse(body);
 obj.data.vip_type = "3";
 obj.data.type = "3";
 obj.data.pay_switch = "3";
-
+obj.data.vip_time = "1";
 // 重写响应体
 $done({ body: JSON.stringify(obj) });
