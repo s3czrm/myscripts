@@ -1,4 +1,6 @@
 /*
+[riwrute_local]
+https:\/\/api\.mlinkapp\.cc\/v1\/user 
 
 [mitm] 
 hostname=*.mlinkapp.cc
