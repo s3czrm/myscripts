@@ -9,7 +9,7 @@
 **************************************
 
 [rewrite_local]
-^https:\/\/api\.revenuecat\.com\/v1\/subscribers/* url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/Assembly.js 
+^https:\/\/api\.revenuecat\.com\/v1\/subscribers/* url script-response-body https://raw.githubusercontent.com/s3czrm/myscripts/main/lefanvpn.js 
 
 [mitm]
 hostname = api.revenuecat.com
