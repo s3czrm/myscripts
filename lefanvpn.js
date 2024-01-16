@@ -5,7 +5,7 @@
 **************************************
 
 [rewrite_local]
-https:\/\/api\.lofunvpn\.com\/api\/v5\/user\/ url script-response-body https://raw.githubusercontent.com/anyehttp/quantumult-x/main/Adguard/Assembly.js 
+https:\/\/api\.lofunvpn\.com\/api\/v5\/user\/ url script-response-body https://raw.githubusercontent.com/s3czrm/myscripts/main/lefanvpn.js 
 
 [mitm]
 hostname = *.lofunvpn.com
