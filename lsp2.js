@@ -26,7 +26,7 @@
 
 ******************************************
 
-hostname = *.bmafdxt.com, *.yxlauhm.com, *.psovzwr.com, *.50*pi.com, *.wmq*api*.com, *.tbrapi.org, *.hichatapi.com, *.longyuandingyi.com,*.zihzot.com,*.snowing.ren,*.vzcnqmr.cn,*beibeini3.cn,*.pili01a.net,*.vfogs.com, *.bhhcdou.cn, *.xuxivwx.cn, *.sdtuxyh.cn, *.kngpdsz.cn, *.sugugaj.cn, *.mqqjrv.com, *.gnikvh.com, *.auhvylo.cn, *.hefeixcx.xyz,*.uvursx.com,*.yitdgm.com,*.b0lgw.com,*.cxfjs.com
+hostname = *.bmafdxt.com, *.yxlauhm.com, *.psovzwr.com, *.50*pi.com, *.wmq*api*.com, *.tbrapi.org, *.qlpwbr.com, *.longyuandingyi.com,*.zihzot.com,*.snowing.ren,*.vzcnqmr.cn,*beibeini3.cn,*.pili01a.net,*.vfogs.com, *.bhhcdou.cn, *.xuxivwx.cn, *.sdtuxyh.cn, *.kngpdsz.cn, *.sugugaj.cn, *.mqqjrv.com, *.gnikvh.com, *.auhvylo.cn, *.hefeixcx.xyz,*.uvursx.com,*.yitdgm.com,*.b0lgw.com,*.cxfjs.com
 
 # 91短视频
 ^https?:\/\/.*(bmafdxt|yxlauhm|psovzwr).com/pwa.php url script-analyze-echo-response https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/lsp.js
@@ -37,7 +37,7 @@ hostname = *.bmafdxt.com, *.yxlauhm.com, *.psovzwr.com, *.50*pi.com, *.wmq*api*.
 # 撸先生
 ^https?:\/\/.*hichatapi.+\/api\.php$ url script-analyze-echo-response https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/lsp.js
 # 𝐀𝐋𝐋
-^(https?:\/\/)(?!long)([^./]+\.)*(longyuandingyi.com|vfogs.com|vzcnqmr.cn|beibeini3.cn|pili01a.net|hhclyjz.cn|bhhcdou.cn|xuxivwx.cn|sdtuxyh.cn|kngpdsz.cn|sugugaj.cn|cxfjs.com|gnikvh.com|igbcbz.com|hefeixcx.xyz|vsmdboa.cn|yitdgm.com|uvursx.com|avwpyqtl.com)(\/.*)? url 302 $1long.$3$4
+^(https?:\/\/)(?!long)([^./]+\.)*(longyuandingyi.com|vfogs.com|vzcnqmr.cn|beibeini3.cn|pili01a.net|qlpwbr.com|xuxivwx.cn|sdtuxyh.cn|kngpdsz.cn|sugugaj.cn|cxfjs.com|gnikvh.com|igbcbz.com|hefeixcx.xyz|vsmdboa.cn|yitdgm.com|uvursx.com|avwpyqtl.com)(\/.*)? url 302 $1long.$3$4
 
 ******************************************/
 // const server = `http://192.168.10.2:7788` // 测试服
