@@ -1,5 +1,5 @@
 /****************************************** * @name 阵风指南 * @description 调试脚本: 去除广告, 顺带解锁视频次数 * @channel https://t.me/yqc_123 * @version 1.0.1 ****************************************** 脚本声明: 1. 本脚本仅用于学习研究，禁止用于商业用途 2. 本脚本不保证准确性、可靠性、完整性和及时性 3. 任何个人或组织均可无需经过通知而自由使用 4. 作者对任何脚本问题概不负责，包括由此产生的任何损失 5. 如果任何单位或个人认为该脚本可能涉嫌侵犯其权利，应及时通知并提供身份证明、所有权证明，我将在收到认证文件确认后删除 6. 请勿将本脚本用于商业用途，由此引起的问题与作者无关 7. 本脚本及其更新版权归作者所有 ****************************************** 
-hostname = dp16dx.lgmufoix8f2.net ,pps69.com
+hostname = dp16dx.lgmufoix8f2.net 
 
 https?:\/\/dp16dx\.lgmufoix8f2\.net(\/|)$ url script-response-body https://raw.githubusercontent.com/s3czrm/myscripts/main/zhenfengzhinan.js
 https?:\/\/pps69\.com(\/|)$ url script-response-body https://raw.githubusercontent.com/s3czrm/myscripts/main/zhenfengzhinan.js
