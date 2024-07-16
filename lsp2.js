@@ -26,7 +26,7 @@
 
 ******************************************
 
-hostname = *.bmafdxt.com, *.nlsxvnflc.com, *.50*pi.com, *.nsrbriq.com, *.tbrapi.org, *.qlpwbr.com, *.longyuandingyi.com,*.zihzot.com,*.snowing.ren,*.qggxxz.com,*beibeini3.cn,*.pili01a.net,*.vfogs.com, *.zhrbnhtma.com, *.xuxivwx.cn, *.sdtuxyh.cn, *.kngpdsz.cn, *.sugugaj.cn, *.mqqjrv.com, *.gnikvh.com, *.auhvylo.cn, *.hefeixcx.xyz,*.uvursx.com,*.yitdgm.com,*.b0lgw.com,*.cxfjs.com
+hostname = *.bmafdxt.com, *.nlsxvnflc.com, *.50*pi.com, *.nsrbriq.com, *.tbrapi.org, *.qlpwbr.com, *.longyuandingyi.com,*.zihzot.com,*.snowing.ren,*.qggxxz.com,*beibeini3.cn,*.pili01a.net,*.vfogs.com, *.zhrbnhtma.com, *.xuxivwx.cn, *.sdtuxyh.cn, *.kngpdsz.cn, *.sugugaj.cn, *.mqqjrv.com, *.gnikvh.com, *.auhvylo.cn, *.hefeixcx.xyz,*.uvursx.com,*.yitdgm.com,*.b0lgw.com,*.shjtokj.cn
 
 # 91短视频
 ^https?:\/\/.*(bmafdxt|yxlauhm|psovzwr).com/pwa.php url script-analyze-echo-response https://raw.githubusercontent.com/s3czrm/myscripts/main/lsp2.js
@@ -37,7 +37,7 @@ hostname = *.bmafdxt.com, *.nlsxvnflc.com, *.50*pi.com, *.nsrbriq.com, *.tbrapi.
 # 撸先生
 ^https?:\/\/.*hichatapi.+\/api\.php$ url script-analyze-echo-response https://raw.githubusercontent.com/s3czrm/myscripts/main/lsp2.js
 # 𝐀𝐋𝐋
-^(https?:\/\/)(?!long)([^./]+\.)*(longyuandingyi.com|vfogs.com|vzcnqmr.cn|beibeini3.cn|pili01a.net|qlpwbr.com|nsrbriq.com|nlsxvnflc.com|sugugaj.cn|cxfjs.com|gnikvh.com|igbcbz.com|hefeixcx.xyz|vsmdboa.cn|yitdgm.com|zhrbnhtma.com|avwpyqtl.com)(\/.*)? url 302 $1long.$3$4
+^(https?:\/\/)(?!long)([^./]+\.)*(longyuandingyi.com|vfogs.com|vzcnqmr.cn|beibeini3.cn|pili01a.net|qlpwbr.com|nsrbriq.com|nlsxvnflc.com|sugugaj.cn|cxfjs.com|gnikvh.com|igbcbz.com|hefeixcx.xyz|vsmdboa.cn|yitdgm.com|zhrbnhtma.com|shjtokj.cn)(\/.*)? url 302 $1long.$3$4
 
 ******************************************/
 // const server = `http://192.168.10.2:7788` // 测试服
