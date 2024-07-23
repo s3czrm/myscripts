@@ -6,7 +6,9 @@ https:\/\/18akmanhua08\.top\/api\/(chaptersDetails|memberDetails) url script-res
 [mitm] 
 hostname = 18akmanhua08.top 
 */
- var _0xody='jsjiami.com.v7';
+ 
+var _0xody='jsjiami.com.v7';
+
 const _0x49de72=_0x3156;
 function _0x2cc3(){
  const _0x128bf4=(function(){
