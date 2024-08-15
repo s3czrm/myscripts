@@ -54,8 +54,8 @@ pilipili(二次元) https://747.jkhpmy.com
 *****************
 
 [rewrite_local]
-https?:\/\/.*\.*\.com\/.*\/[a-f0-9]+\/[a-f0-9]+\.m3u8 url script-request-header https://raw.githubusercontent.com/anyehttp/quantumult-x/main/beta/ghs.js
-https?:\/\/.*\.*\.cn\/.*\/[a-f0-9]+\/[a-f0-9]+\.m3u8 url script-request-header https://raw.githubusercontent.com/anyehttp/quantumult-x/main/beta/ghs.js
+https?:\/\/.*\.*\.com\/.*\/[a-f0-9]+\/[a-f0-9]+\.m3u8 url script-request-header https://raw.githubusercontent.com/s3czrm/myscripts/main/ghs.js
+https?:\/\/.*\.*\.cn\/.*\/[a-f0-9]+\/[a-f0-9]+\.m3u8 url script-request-header https://raw.githubusercontent.com/s3czrm/myscripts/main/ghs.js
 
 *****************/
 
@@ -70,7 +70,7 @@ if (headers.hasOwnProperty("X-Playback-Session-Id") || headers.hasOwnProperty("x
         //console.log("Saved notify:", notify);
         if (!notify || notify != url) {
             $.setdata(url, "m3u8");
-            $.msg("视频链接捕获成功", "点击此通知在线观看", "视频还没开始播放之前会通知1-4次", url);
+            $.msg("m3u8获取成功", "圣贤模式倒计时", "点击开始播放", url);
         }
     } catch (e) {
         console.error("An error occurred:", e);
