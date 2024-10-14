@@ -3,4 +3,4 @@
 [MITM]
 hostname =  %APPEND% 152.32.209.31:5200
 [Script]
-牛牛视频 = type=http-request,pattern=^http:\/\/152\.32\.209\.31\:5200\.*\.m3u8,requires-body=0,script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/tangtoutiao.js,script-update-interval=0
+牛牛视频 = type=http-request,pattern=^http:\/\/*\:*\.*\.m3u8,requires-body=0,script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/tangtoutiao.js,script-update-interval=0
