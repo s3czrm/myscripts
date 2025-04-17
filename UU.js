@@ -4,7 +4,7 @@
 ^https:\/\/*\.cloudfront\.net\/api\/m3u8\/decode\/authPath url script-response-header https://raw.githubusercontent.com/s3czrm/myscripts/main/UU.js
 
 [mitm]
-hostname = *.cloudfront.net,
+hostname = *.cloudfront.net
 */
 
 // 定义目标 URL 匹配规则
