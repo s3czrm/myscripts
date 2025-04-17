@@ -1,14 +1,14 @@
 
 /*
 [rewrite_local]
-^https:\/\/*\.cloudfront\.net\/api\/m3u8\/decode\/authPath url script-response-header https://raw.githubusercontent.com/s3czrm/myscripts/main/UU.js
+https:\/\/[^\/]+\.cloudfront\.net\/api\/m3u8\/decode\/authPath url script-response-header https://raw.githubusercontent.com/s3czrm/myscripts/main/UU.js
 
 [mitm]
 hostname = *.cloudfront.net
 */
 
 // 定义目标 URL 匹配规则
-const TARGET_URL_REGEX = /^https:\/\/d11rd8m1pg017m\.cloudfront\.net\/api\/m3u8\/decode\/authPath/;
+const TARGET_URL_REGEX = https:\/\/[^\/]+\.cloudfront\.net\/api\/m3u8\/decode\/authPath;
 
 // 获取 ak 的 API
 const AK_API = "https://vpn5.lovebabyforever.workers.dev/";
