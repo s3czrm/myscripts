@@ -1,7 +1,7 @@
 
 '''
 [rewrite_local]
-^https:\/\/*\.cloudfront\.net\/api\/m3u8\/decode\/authPath url script-response-header https://raw.githubusercontent.com/你的路径/replace_auth_key.js
+^https:\/\/*\.cloudfront\.net\/api\/m3u8\/decode\/authPath url script-response-header https://raw.githubusercontent.com/s3czrm/myscripts/main/UU.js
 
 [mitm]
 hostname = *.cloudfront.net,
